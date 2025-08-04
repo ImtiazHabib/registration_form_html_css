@@ -1,0 +1,95 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+	line-height: 24px;
+}
+h1,h2,h3,h4,h5{
+    font-family: "Poppins", sans-serif;
+}
+a,a:hover{
+    text-decoration: none;
+}
+/*global css start*/
+.my-container{
+	width:1140px;
+	margin: 0px auto;
+}
+.my-row{
+	width:100%;
+	float: left;
+}
+.my-col-md-12{
+	width:100%;
+	float: left;
+}
+.my-col-md-4{
+	width: 33.33%;
+	float: left;
+}
+.my-col-md-6{
+	width: 50%;
+	float: left;
+}
+/*global css end*/
+/* project start */
+.registration_form{
+     background-image: linear-gradient(to right, rgb(81, 26, 220) , rgb(11, 231, 212));
+     height: 100vh;
+    position: relative;
+
+}
+.form_section{
+    border-radius: 25px;
+    top: 84px;
+    background-color: white;
+    height: 365px;
+    position: absolute;
+    left: 477px;
+    width: 612px;
+    padding: 25px;
+}
+.heading h1{
+    text-align: center;
+    padding :19px;
+}
+.user_details{
+    display: flex;
+    flex-wrap: wrap ;
+    justify-content: space-between;
+}
+.user_details .input_box{
+    padding: 9px;
+
+}
+.user_details .input_box span{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 4px;
+}
+.gender-options{
+    display: flex;
+    align-items: center;
+}
+.form_action_buttons a{
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(45deg, #9d2989, black);
+}
+.form_action_buttons a:hover{
+    background: linear-gradient(45deg,black, #9d2989 ); 
+}
+.form_action_buttons input{
+   font-size: 16px;
+    padding: 10px;
+    color: white;
+    background: linear-gradient(45deg, #023141, rgb(216, 5, 5)); 
+}
+.form_action_buttons input:hover{
+     background: linear-gradient(45deg,rgb(216, 5, 5), #023141 ); 
+}
+/* project end */
